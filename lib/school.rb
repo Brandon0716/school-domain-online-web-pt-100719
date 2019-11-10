@@ -6,7 +6,10 @@ def initialize(name)
   @name = name
   @roster = {}
   end
- def add_student(roster,)
+ def add_student(roster,level)
+   
+    roster[level] ||= []
+    roster[level] << student
  end
 
 end

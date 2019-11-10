@@ -6,14 +6,14 @@ def initialize(name)
   @name = name
   @roster = {}
   end
- def add_student(student, level)
-    roster[level] ||= []
-    roster[level] << student
+ def add_student(student, how)
+    roster[how] ||= []
+    roster[how] << student
   end 
   
-  def grade(level)
+  def grade(how)
     roster.detect do |x, y| 
-      if x == level
+      if x == how
         return y 
       end 
     end 

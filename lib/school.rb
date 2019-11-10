@@ -6,7 +6,7 @@ def initialize(name)
   @name = name
   @roster = {}
   end
- def add_student
+ def add_student(roster,)
  end
 
 end

@@ -1,4 +1,5 @@
 # awesomesauce
+class School
 
 def school()
   

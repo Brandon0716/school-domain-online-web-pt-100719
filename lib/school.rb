@@ -18,8 +18,7 @@ def initialize(name)
       end 
     end 
   end
-  end 
-  def sort 
+def sort 
   nu_hash = {}
   roster.each do |x, y| 
     nu_hash[x] = y.sort 
@@ -28,3 +27,4 @@ def initialize(name)
 end 
   
 end 
+  

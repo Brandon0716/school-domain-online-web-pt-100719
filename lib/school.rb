@@ -19,11 +19,11 @@ def initialize(name)
     end 
   end
 def sort 
-  nu_hash = {}
+  confused = {}
   roster.each do |x, y| 
-    nu_hash[x] = y.sort 
+    confused[x] = y.sort 
   end 
-  nu_hash
+  confused
 end 
   
 end 
